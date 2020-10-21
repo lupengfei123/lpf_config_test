@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>lpf-config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>lpf_config_test</name>
     <description>Demo project for Spring Boot</description>
@@ -23,6 +23,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
